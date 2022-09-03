@@ -1,0 +1,28 @@
+Esquema de permissões
+
+chmod = alterar permissão
+
+chmod u/g/o/ respectivamente usuario adm/grupo usuários/outros(convidados)
+
+'+' -> adiciona permissão/ '-' -> Remove permissão
+Exemplo:
+
+chmod o+rwx "pasta ou arquivo"
+chmod g+x "pasta ou arquivo"
+chmod u+rwx "pasta ou arquivo"
+
+Ou pode alterar por valor numérico
+
+chmod r=4 w=2 x=1
+chmod 777 "arquivo"
+
+cat arquivo.txt
+
+echo "texto escrito" > aula -> escreve no arquivo
+o sinal de '>' sobrescreve o que está no arquivo
+para não sobrescrever use '>>'
+
+
+vagrant halt => desliga máquina
+vagrant destory => destrói as maquinas virtuias
+ ls -a => lista arquivos ocultos
