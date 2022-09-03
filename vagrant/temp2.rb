@@ -6,7 +6,7 @@
 #para executar durante o provisionamento
 #
 
-NUM_NODE = 3
+NUM_NODE = 1
 IMAGE_BOX = "ubuntu/bionic64"
 NODE_NAME = "svr"
 NODE_MEM = 1024
